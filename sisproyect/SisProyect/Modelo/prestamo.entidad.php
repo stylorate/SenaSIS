@@ -1,0 +1,22 @@
+<?php
+
+class Prestamo {
+
+    private $id;
+    private $idLocal;
+    private $idUsuario;
+    private $fechaIni;
+    private $fechaFin;
+    private $listProducto;
+
+    public function __GET($k) {
+        return $this->$k;
+    }
+
+    public function __SET($k, $v) {
+        return $this->$k = $v;
+    }
+
+}
+
+?>
